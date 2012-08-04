@@ -1,10 +1,10 @@
-==Planet-Z PHP Framework==
-Lanet-z is a pragmatic approach to building websites with PHP 5. 
+###Planet-Z PHP Framework
+Planet-z is a pragmatic approach to building websites with PHP 5. 
 ***
-==License==
+###License
 Licensed under the [MIT Open Source License](http://www.opensource.org/licenses/mit-license.php).
 ***
-==Structure==
+###Structure
 ***
 * Authorization Class
 * Configuration Class
@@ -19,12 +19,12 @@ Licensed under the [MIT Open Source License](http://www.opensource.org/licenses/
 * Objects Class
 * Report Preferences Class
 * Pager Class
-* Webservice Class
-* Statistics Class
+* -Webservice Class
+* -Statistics Class
 * Tags Class
 * URL Cache Class
 * Functions Include Class
 * Master Include Class
-* Calendar Class
-* SMS Class
-* BPM Class
+* -Calendar Class
+* -SMS Class
+* -BPM Class

@@ -179,8 +179,10 @@
 
             $values = array();
             mysql_data_seek($result, 0);
-            while($row = mysql_fetch_array($result, MYSQL_ASSOC))
-                $values[] = array_pop($row);
+            if (!empty($row)) {
+                while($row = mysql_fetch_array($result, MYSQL_ASSOC))
+                    $values[] = array_pop($row);
+            }
             return $values;
         }
 
@@ -201,8 +203,10 @@
 
             $rows = array();
             mysql_data_seek($result, 0);
-            while($row = mysql_fetch_array($result, MYSQL_ASSOC))
-                $rows[] = $row;
+            if (!empty($row)) {
+                while($row = mysql_fetch_array($result, MYSQL_ASSOC))
+                    $rows[] = $row;
+            }
             return $rows;
         }
 

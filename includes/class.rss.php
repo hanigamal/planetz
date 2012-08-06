@@ -39,14 +39,16 @@
 
         public function loadRecordset($result, $title, $link, $description, $pub_date)
         {
-            while($row = mysql_fetch_array($result, MYSQL_ASSOC))
-            {
-                $item = new RSSItem();
-                $item->title       = $row[$title];
-                $item->link        = $row[$link];
-                $item->description = $row[$description];
-                $item->setPubDate($row[$pub_date]);
-                $this->addItem($item);
+            if (!empty($row)) {
+                while($row = mysql_fetch_array($result, MYSQL_ASSOC))
+                {
+                    $item = new RSSItem();
+                    $item->title       = $row[$title];
+                    $item->link        = $row[$link];
+                    $item->description = $row[$description];
+                    $item->setPubDate($row[$pub_date]);
+                    $this->addItem($item);
+                }
             }
         }
 

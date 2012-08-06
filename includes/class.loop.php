@@ -1,10 +1,16 @@
 <?PHP
-    class Loop
+/**
+ *
+ */
+class Loop
     {
         private $index;
         private $elements;
         private $numElements;
 
+        /**
+         *
+         */
         public function __construct()
         {
             $this->index       = 0;
@@ -12,14 +18,20 @@
             $this->numElements = func_num_args();
         }
 
+        /**
+         * @return string
+         */
         public function __tostring()
         {
             return (string) $this->get();
         }
 
+        /**
+         * @return null
+         */
         public function get()
         {
-            if($this->numElements == 0) return null;
+            if($this->numElements == 0) return NULL;
 
             $val = $this->elements[$this->index];
 

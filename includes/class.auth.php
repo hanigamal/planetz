@@ -1,4 +1,12 @@
 <?PHP
+/**
+* Class for Auth users
+* @package core
+*
+*/
+// automatic loading for core packages
+require_once 'class.autoload.php';
+$autoload = new Autoload();
     class Auth
     {
         const SALT = 'maktabakd0tnetintegrateds0lutions';
@@ -209,7 +217,9 @@
                 $dash_str .= substr($password, 0, $dash_len) . '-';
                 $password = substr($password, $dash_len);
             }
-            $dash_str .= $password;
+            // add algorthim encyrtpion
+            $hashing = new Encryption();
+            $dash_str .= $hashing->encode($password);
             return $dash_str;
         }
 
@@ -295,6 +305,7 @@
             }
         }
 
+        // generate users cookie
         private function generateBCCookies()
         {
             $c  = '';
@@ -307,9 +318,10 @@
             $b = "x={$this->expiryDate}&s=$sig";
             $b = base64_encode($b);
             $b = str_rot13($b);
-
-            setcookie('B', $b, $this->expiryDate, '/', Config::get('authDomain'));
-            setcookie('C', $c, $this->expiryDate, '/', Config::get('authDomain'));
+            // hashing 
+            $hashing = new Encryption();
+            setcookie('B', $hashing->encode($b), $this->expiryDate, '/', Config::get('authDomain'));
+            setcookie('C', $hashing->encode($c), $this->expiryDate, '/', Config::get('authDomain'));
         }
 
         private function clearCookies()
@@ -331,9 +343,12 @@
             redirect($url);
         }
 
+        // hashing users passwors
         private static function hashedPassword($password)
         {
-            return md5($password . self::SALT);
+            //equation left side md5 password and add static salt for it then multiple in hashing class the right side of algorithm
+            $hashing = new Encryption();
+            return $hashing->encode( md5($password . self::SALT) ) ;
         }
 
         private static function newNid()
@@ -342,3 +357,5 @@
             return md5(rand() . microtime());
         }
     }
+
+$auth = new Auth();

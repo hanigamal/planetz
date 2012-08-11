@@ -1,4 +1,6 @@
 <?PHP
+require_once 'class.autoload.php';
+$autoload = new Autoload();
     class Auth
     {
         const SALT = 'maktabakd0tnetintegrateds0lutions';
@@ -342,3 +344,4 @@
             return md5(rand() . microtime());
         }
     }
+$auth = new Auth();

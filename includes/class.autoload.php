@@ -1,9 +1,10 @@
 <?php
-
 /**
- * class autoload files 
- * autload necssary files should be here
+ * @type Class
+ * @desc Core Packages/Files Autoloader
+ * @required none
  * @package core
+ * @author Hani Gamal
  */ 
 class Autoload
 {
@@ -14,7 +15,7 @@ class Autoload
 	
 	public function __autoload()
 	{
-		// load core files
+		// load core packages/files
 		require_once 'class.auth.php';
 		require_once 'class.config.php';
 		require_once 'class.database.php';

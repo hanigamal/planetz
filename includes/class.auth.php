@@ -1,10 +1,15 @@
-<?PHP
+<?php
 /**
-* Class for Auth users
+* @type Class
+* @desc Authenticate Users
 * @package core
+* @required autoload class
+* @author Hani Gamal
 *
 */
-// automatic loading for core packages
+// TODO Add Social Sites Authentication Options
+// TODO Add User Management System
+// autoloader for core packages
 require_once 'class.autoload.php';
 $autoload = new Autoload();
     class Auth

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0600b1db-09af-4407-a405-377388cc002f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/class.autoload.php" afterPath="$PROJECT_DIR$/includes/class.autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/class.encryption.php" afterPath="$PROJECT_DIR$/includes/class.encryption.php" />
-    </list>
+    <list default="true" id="0600b1db-09af-4407-a405-377388cc002f" name="Default" comment="" />
     <ignored path="planet-z.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +21,62 @@
     <favorites_list name="planet-z" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="class.auth.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/class.auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="12" selection-start="2549" selection-end="2549" vertical-scroll-proportion="-60.153847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.autoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/class.autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="10" selection-end="121" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.rss.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/class.rss.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="19" selection-start="1064" selection-end="1064" vertical-scroll-proportion="62.153847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.objects.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/class.objects.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.inc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/functions.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="595" column="13" selection-start="21160" selection-end="21160" vertical-scroll-proportion="-75.42308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.routery.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/class.routery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -46,6 +96,7 @@
         <option value="$PROJECT_DIR$/includes/class.loop.php" />
         <option value="$PROJECT_DIR$/includes/class.rss.php" />
         <option value="$PROJECT_DIR$/includes/class.database.php" />
+        <option value="$PROJECT_DIR$/includes/class.routery.php" />
       </list>
     </option>
   </component>
@@ -134,6 +185,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planet-z" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planet-z" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planet-z" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planet-z" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -151,10 +226,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="samemates" serverId="59a7456e-5626-46c6-8f4b-c71b11b468f4">
     <servers>
@@ -189,17 +264,17 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="local">
-      <method>
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="local">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
           <server_name />
         </option>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="local">
+      <method>
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
@@ -311,13 +386,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14924243" sideWeight="0.6043771" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14848486" sideWeight="0.4006734" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14848486" sideWeight="0.5875421" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -390,11 +465,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/master.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/class.urlcache.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -420,55 +490,69 @@
         <state line="4" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.055194806" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class.rss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="19" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.33898306" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/class.database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="204" column="28" selection-start="7047" selection-end="7047" vertical-scroll-proportion="0.30847457" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class.auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="12" selection-start="2594" selection-end="2594" vertical-scroll-proportion="-3.8461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/functions.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="12" selection-start="9008" selection-end="9008" vertical-scroll-proportion="-3.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class.autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="116" selection-end="116" vertical-scroll-proportion="-3.6923077" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/class.dbobject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="43" selection-start="4430" selection-end="4430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="153" column="43" selection-start="4430" selection-end="4430" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="113" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="37" column="113" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/class.error.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="20" selection-start="9766" selection-end="9766" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="264" column="20" selection-start="9766" selection-end="9766" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/class.gd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="662" selection-end="662" vertical-scroll-proportion="0.031307552">
+        <state line="20" column="9" selection-start="662" selection-end="662" vertical-scroll-proportion="0.031307552" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class.auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="12" selection-start="2549" selection-end="2549" vertical-scroll-proportion="-60.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class.rss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="19" selection-start="1064" selection-end="1064" vertical-scroll-proportion="62.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class.objects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="595" column="13" selection-start="21160" selection-end="21160" vertical-scroll-proportion="-75.42308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class.autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="10" selection-end="121" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class.routery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

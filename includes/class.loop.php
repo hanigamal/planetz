@@ -2,7 +2,7 @@
 /**
  *
  */
-class Loop
+class Alternate
 		{
 				private $index;
 				private $elements;
@@ -48,7 +48,7 @@ class Loop
 		}
 
 		// Example:
-		// $color = new Loop('white', 'black');
+		// $color = new Alternate('white', 'black');
 		//
 		// echo "<tr color='$color'/>";
 		// echo "<tr color='$color'/>";

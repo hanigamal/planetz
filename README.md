@@ -16,7 +16,7 @@ Licensed under the [MIT Open Source License](http://www.opensource.org/licenses/
 * Database Session Class
 * Error Class
 * GD Class
-* Loop Class
+* Alternate Class
 * Objects Class
 * Report Preferences Class
 * Pager Class
